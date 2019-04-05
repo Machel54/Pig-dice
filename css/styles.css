@@ -2,14 +2,12 @@ body{
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  color: white;
+  color: black;
 }
 h1{
   text-align: center;
+  color: white;
 }
 h4{
-  text-align: center;
-}
-li{
   text-align: center;
 }
