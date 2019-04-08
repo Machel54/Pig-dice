@@ -10,38 +10,31 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
          if (dice === 1) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropboxusercontent.com/s/xnfhjk3caqev2zj/dice-1.png?dl=0';
         }
 
          if (dice === 2) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropbox.com/s/wbnklceyy8amu5j/dice-2.png?dl=0';
         }
 
          if (dice === 3) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropbox.com/s/w1vgqaneh1fdope/dice-3.png?dl=0';
+
         }
 
          if (dice === 4) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropbox.com/s/sa9pmcm6d9issjp/dice-4.png?dl=0';
+
         }
 
          if (dice === 5) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropbox.com/home/img/diceGame?preview=dice-5.png';
+
         }
 
          if (dice === 6) {
             var diceDOM = document.querySelector('.dice');
-            diceDOM.style.display = 'block';
-            diceDOM.src = 'https://dl.dropbox.com/s/7kv0plehf4je2tr/dice-6.png?dl=0';
+
+
         }
 
 
@@ -117,7 +110,6 @@ function nextPlayer() {
     document.querySelector('.dice').style.display = 'none';
 }
 
-document.querySelector('.btn-new').addEventListener('click', init);
 
 function init() {
     scores = [0,0];
